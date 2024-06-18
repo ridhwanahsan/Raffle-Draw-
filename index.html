@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made By Ridhwan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Raffle Draw</h1>
+        <div class="input-section">
+            <input type="text" id="participantName" placeholder="Enter participant name">
+            <button onclick="addParticipant()">Add Participant</button>
+        </div>
+        <div class="participants">
+            <h2>Participants</h2>
+            <ul id="participantsList"></ul>
+        </div>
+        <button class="draw-button" onclick="drawWinner()">Draw Winner</button>
+        <div class="winner-section">
+            <h2>Winner</h2>
+            <p id="winnerName"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
